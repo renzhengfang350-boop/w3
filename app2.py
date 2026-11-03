@@ -30,7 +30,6 @@ def home():
                            question_text=question_text,
                            feedback=feedback
                            )
-
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
 

@@ -6,6 +6,6 @@ def home():
         topic = request.form.get("topic","")
         print("我選擇的主題:",topic)
 
-    return render_template("index.html",topic=topic)
+    return render_template("index.html",topic=topic,)
 if __name__ =="__main__":
     app.run(debug=True,port=5001)

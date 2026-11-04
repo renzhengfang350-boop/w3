@@ -37,9 +37,6 @@ filename='style.css') }}">
         </div>
         <button class="min-btn" type="submit" name="action" value="generate">幫我出題</button>
         </form>
-
-
-
     <div class="question_ai">
         <h3>AI 出題:</h3>
         <p>{{ question_text }}</p>
@@ -67,7 +64,7 @@ filename='style.css') }}">
         {% endif %}
         </div>
 
-      {% if feedback %}   
+    {% if feedback %}   
     <div class="feedback">
         <h2>AI 學習回饋</h2>
         <p>{{feedback}}</p>
